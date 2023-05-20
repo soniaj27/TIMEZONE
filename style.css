@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Arial', 'sans-serief';
+}
+:root{
+    --first-color:#3498db;
+    --second-color:#2c3e50;
+    --third-color:#bdc3c7;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--first-color);
+}
+
+h2{
+    font-size: 17px;
+}
+
+.user-time-section{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.user-time-section h2{
+    color: var(--second-color);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.user-time-section p{
+    margin-bottom: 10px;
+}
+
+.user-time-section .user-time-info div{
+    display: flex;
+    gap: 60px;
+}
+
+.address-section{
+    margin-top: 10px;
+}
+.address-section #address{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.address-section #btn{
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.address-section #btn:hover{
+    background-color: var(--first-color);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    color: #fff;
+}
+
+.user-by-address {
+    margin: 20px;
+    display: none;
+}
+
+.error{
+    margin-top: 15px;
+    color: #fff;
+    text-shadow: 0 0 rgba(0,0,0,.3);
+    font-size: 17px;
+}
